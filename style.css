@@ -1,0 +1,162 @@
+body {
+   text-align: center;
+}
+
+.top-container {
+   background-image: url("./images/background.png");
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.top-container h1 {
+   font-family: serif;
+   font-size: 60px;
+   color: darkblue;
+   text-align: center;
+}
+
+.top-container h2 {
+   text-align: center;
+   font-size: 40px;
+   color: darkblue;
+   font-family: sans-serif;
+}
+
+.pro {
+   text-decoration: underline;
+}
+.subha {
+   height: 200px;
+   border-radius: 100px;
+}
+.btn{
+   margin-top: 1rem;
+}
+.middle-container{
+   margin-top: 10rem;
+}
+
+.middle-container h2 {
+
+   text-align: center;
+   font-size: 40px;
+   color: darkblue;
+   font-family: serif;
+   margin-top: 30px;
+}
+.heart{
+   height: 15px;
+}
+p{
+   text-align: center;
+   font-size: 20px;
+   font-family: sans-serif;
+   margin-top: 30px;
+}
+
+.skill h2{
+   margin-top: 120px;
+   text-align: center;
+}
+.skill h3{
+   margin-top: 120px;
+  color:darkblue;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 320px;
+
+}
+.skilled h3{
+   margin-top: 120px;
+   color:darkblue;
+   font-size: 30px;
+   text-align:right;
+   margin-right: 330px;
+}
+.design{
+   display: flex;
+   height: 150px;
+   margin-left: 50px;
+}
+.design h3 {
+color:  rgb(21, 245, 245);
+}
+
+.design p {
+   width: 40%;
+   text-align: left;
+   margin-left: 40px;
+}
+
+.computer{
+   display: flex;
+   height: 150px;
+   flex-direction: row-reverse;
+   margin-right: 50px;
+}
+.computer h3{
+   color:  darkblue;
+}
+.computer p{
+   width: 40%;
+   text-align:right;
+   margin-right: 40px;
+}
+.information h3{
+   color:darkblue;
+   font-size: 30px;
+   margin-top: 50px;
+}
+
+.btn a{
+   /* border-radius: 40px; */
+   color:white;
+   margin-top: 30px;
+   padding:5px;
+  font-size: 20px;
+  background-color: darkblue;
+  border: none;
+  text-decoration: none;
+}
+.foot{
+   background-color:lightcyan ;
+   width: 100%;
+   height: 15rem;
+   margin-top: 3rem;
+}
+.foot h3{
+   font-size:30px ;
+   color: darkblue;
+    padding-top:25px;
+   
+}
+.foot p{
+   color: darkblue;
+   margin-top: 40px;
+}
+.foot ul {
+  display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   margin-top:25px;
+   gap: 3rem;
+}
+ul a{
+   font-size: 20px;
+   text-decoration: none;
+}
+
+
+
